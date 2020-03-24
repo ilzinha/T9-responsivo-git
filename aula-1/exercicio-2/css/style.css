@@ -52,4 +52,12 @@ h2 {
 }
 
 
+/*Media Query*/
+
+@media screen and (max-width: 320px){
+    .secao-sobre {
+        background-color: red;
+    }
+}
+
 
