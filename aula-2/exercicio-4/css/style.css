@@ -77,3 +77,25 @@ body {
 .btn_purple:hover {
     background-color: #3a006d;
 }
+
+
+@media screen and (max-width:500px) {
+    label {
+        width: 60%;
+        text-align: left;
+    }
+    input[type="number"] {
+        display: flex;
+    }
+
+    .form {
+        width: 100%; 
+    }
+
+    .btn_grey {
+        margin-left: -140px;
+    }
+    .btn_purple  {
+        position: absolute;
+    }
+}
