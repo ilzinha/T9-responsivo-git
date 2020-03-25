@@ -38,8 +38,9 @@ body {
     box-sizing: border-box;
     padding: 52px 48px;
     margin: auto;
-    width: 1200px;
+    max-width: 1200px;
     background: #fff;
+    text-align: justify;
 }
 
 .content {
