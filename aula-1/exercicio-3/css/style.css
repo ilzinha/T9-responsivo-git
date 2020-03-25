@@ -7,11 +7,18 @@ header {
     background: url(../img/gato-background.jpg);
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
     height: 180px;
     align-items: center;
 }
 
 header div {
+=======
+    min-height: 180px;  
+    align-items: center;  
+}
+.header-caixa {
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
     align-items: center;
     display: flex;
 }
@@ -31,6 +38,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .todos div img {
@@ -38,6 +46,7 @@ main {
     height: 150px;
 }
 
+<<<<<<< HEAD
 /* Media querys */
 
 @media only screen and (max-device-width: 900px) {
@@ -61,5 +70,23 @@ main {
     .todos {
         flex-wrap: wrap;
         align-items: center;
+=======
+.todos:last-child {
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .header-caixa {
+        flex-direction: column;
+    }
+
+    .todos {
+        flex-wrap: wrap;
+    }
+
+    .todos:last-child {
+        margin-top: 0;
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
     }
 }
