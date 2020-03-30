@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Varela&display=swap');
+
+/*
+
+
+    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Varela', sans-serif;
+
+*/
+
+html {
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.nav {
+    background-color: #a2c1c7;
+    list-style: none;
+    height: 80px;
+    text-align: right;
+}
+
+.menu {
+    justify-content: flex-end;
+}
+
+
+.menu_link {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 20px 60px;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Varela', sans-serif
+}
+
+.header {
+    background: url(../mundo-gelado/img/foto-banner.jpg) no-repeat center center / cover;
+
+    filter: grayscale(100%);
+    height: 500px;
+    width: 100%;
+
+}
+
+.header_text {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.text_title {
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 7.0rem;
+    letter-spacing: 2rem;
+
+}
+
+.text_subtext {
+    color: #fdfdfdde;
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+    padding: 50px;
+
+
+}
+
+.btn {
+    background: #8f8d8d;
+    color: #fff;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-family: 'Varela', sans-serif;
+}
+
+.sobre {
+    background-color: #292626;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    height: 500px;
+}
+
+.sobre_title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.sobre_text {
+    font-family: 'Varela', sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
+    padding: 0 400px;
+    color: #b8b7b7;
+}
+
+.siberia {
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}
+.foto_barra  {
+    display: flex;
+    align-items: center;
+}
+
+.siberia_foto {
+    max-width: 800px;
+    filter: grayscale(100%);
+
+}
+
+.barra_vertical {
+    background-color: #a2c1c7;
+    height: 150px;
+    width: 7px
+}
+
+.title_text {
+    text-align: left;
+
+    margin-left: 30px;
+
+}
+
+.siberia_title {
+    font-family: 'Varela', sans-serif;
+    font-size: 2.8rem;
+    
+}
+
+.siberia_text {
+    color: #8f8d8d;
+    font-family: 'Varela', sans-serif;
+    font-size: 1.8rem;
+    
+}
+
+.groelandia_antartida {
+    padding: 20px 100px;
+}
+
+.groelandia, .antartida {
+    display: flex;
+    background: #1d1b1b;
+    color: #fff
+}
+
+
+.groelandia_foto, .antartida_foto {
+    max-width: 575px;
+    filter: grayscale(100%)
+    
+}
+.groelandia_container {
+    width: 500px;
+    margin: 88px 76px 0 50px;
+}
+
+ .groelandia_title, .antartida_title {
+    font-family: 'Varela', sans-serif;
+    font-size: 2.8rem;
+ }
+
+ .groelandia_text, .antartida_text {
+    color: #8f8d8d;
+    font-family: 'Varela', sans-serif;
+    font-size: 1.8rem;
+ }
+
+ .barra_horizontal_G {
+    background-color: #a2c1c7;
+    height: 7px;
+    width:150px;
+    margin-top: 20px;
+ }
+
+ .antartida_container {
+    width: 500px;
+    margin: 88px 76px 0 50px;
+    text-align: right;
+    ;
+ }
+
+ .barra_horizontal_A {
+    background-color: #a2c1c7;
+    height: 7px;
+    width:150px;
+    margin-top: 20px;
+    display: inline-grid;
+ }
